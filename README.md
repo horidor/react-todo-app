@@ -1,9 +1,19 @@
-# React TypeScript Starter Pack
+# React TODO App
 
-To use this template click `Use this template`
+## Description
 
-### Available Scripts
+This is a React TODO project that implements CRUD app with Todo task management. It allows loading, adding, editing and deleting todos through plethora of user oriented methods, as well as changing their status and filtering them based on their status. Application also utilizes interaction with API to save user todos and display them on next load. Project utilizes Vite as its build system.
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+## Launch
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+To launch this application locally, simply clone this repository and install required modules:
+
+```npm install```
+
+Afterwards, you can start the project through
+
+```npm start```
+
+The project will be hosted on localhost, with the port displayed in the console. Additionaly, it will open in your default browser.
+
+[Demo link](https://horidor.github.io/react-todo-app)
